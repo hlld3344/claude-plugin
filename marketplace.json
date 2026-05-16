@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "last_updated": "2024-01-15T10:00:00Z",
+  "marketplace_version": "2024.01.15-prod",
+  "environment": "production",
+  "branch": "main",
+  "plugins": {
+    "hello-world": {
+      "latest": "1.0.0",
+      "versions": {
+        "1.0.0": {
+          "manifest_path": "plugins/hello-world/manifest.json",
+          "git_ref": "HEAD",
+          "checksum": "sha256:prod123"
+        }
+      }
+    }
+  }
+}
