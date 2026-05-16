@@ -1,3 +1,8 @@
+---
+name: hello-world
+description: A simple hello world skill for demonstration. This is the staging/beta version with new features.
+---
+
 # Skill: hello-world
 
 ## Description
