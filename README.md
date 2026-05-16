@@ -12,6 +12,8 @@ This is the **staging** marketplace branch.
 ## Directory Structure
 
 ```
+.claude-plugin/
+└── marketplace.json          # Marketplace metadata and plugin index
 plugins/
 └── skills/
     └── hello-world/
