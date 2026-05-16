@@ -1,3 +1,8 @@
+---
+name: hello-world
+description: A simple hello world skill for demonstration. This is the production stable version.
+---
+
 # Skill: hello-world
 
 ## Description
@@ -18,7 +23,7 @@ Use this skill when you want to demonstrate the basic functionality of the marke
 
 ```
 User: "Run hello-world skill"
-Assistant: "Hello from Production Marketplace! (v1.0.0) - This is the stable version from main branch."
+Assistant: "Hello from Production Marketplace! (v1.0.0) - This is the stable version from master branch."
 ```
 
 ## Version Info
