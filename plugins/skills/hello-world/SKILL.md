@@ -1,9 +1,9 @@
 ---
-name: hello-world
+name: hello-world-beta
 description: A simple hello world skill for demonstration. This is the staging/beta version with new features.
 ---
 
-# Skill: hello-world
+# Skill: hello-world-beta
 
 ## Description
 
@@ -29,7 +29,7 @@ Use this skill when you want to demonstrate the basic functionality of the marke
 ## Example Usage
 
 ```
-User: "Run hello-world skill"
+User: "Run hello-world-beta skill"
 Assistant: "🚀 Hello from STAGING Marketplace! (v2.0.0-beta) - This is the development version with new features!"
 ```
 

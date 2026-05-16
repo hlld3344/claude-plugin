@@ -10,7 +10,7 @@
   },
   "plugins": [
     {
-      "name": "hello-world",
+      "name": "hello-world-beta",
       "source": "./plugins/skills/hello-world",
       "description": "A simple hello world skill for demonstration. This is the staging/beta version with enhanced features, debug mode, and environment detection.",
       "version": "2.0.0-beta",
