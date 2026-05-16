@@ -1,19 +1,30 @@
 {
-  "schema_version": "1.0",
-  "last_updated": "2024-01-15T10:00:00Z",
-  "marketplace_version": "2024.01.15-prod",
-  "environment": "production",
-  "branch": "master",
-  "skills": {
-    "hello-world": {
-      "latest": "1.0.0",
-      "versions": {
-        "1.0.0": {
-          "skill_path": "plugins/skills/hello-world/SKILL.md",
-          "git_ref": "HEAD",
-          "checksum": "sha256:prod123"
-        }
-      }
+  "name": "claude-plugin-marketplace",
+  "owner": {
+    "name": "Claude Plugin Dev Team",
+    "email": "dev@example.com"
+  },
+  "metadata": {
+    "description": "Claude Code marketplace for skill plugins and agent tools",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "hello-world",
+      "source": "./plugins/skills/hello-world",
+      "description": "A simple hello world skill for demonstration. This is the production stable version.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Plugin Dev Team",
+        "email": "dev@example.com"
+      },
+      "repository": "https://github.com/example/claude-plugin",
+      "license": "MIT",
+      "keywords": [
+        "hello-world",
+        "demo",
+        "skill"
+      ]
     }
-  }
+  ]
 }
