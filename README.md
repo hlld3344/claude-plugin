@@ -9,6 +9,8 @@ This is the **production** marketplace branch (`master`).
 ## Directory Structure
 
 ```
+.claude-plugin/
+└── marketplace.json          # Marketplace metadata and skill index
 plugins/
 └── skills/
     └── hello-world/
